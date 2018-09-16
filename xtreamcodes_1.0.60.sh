@@ -366,8 +366,8 @@ echo -e "${jeshile} ┌───────────────────
 echo -e "${jeshile} │  Downloanding Extracting And Installing  │ \e[0m"
 echo -e "${jeshile} └──────────────────────────────────────────┘ \e[0m"
 echo " "
-#mkdir /var/www/html
-#cd /var/www/html #DESTINACIONI KRYESOR ADMIN - TEMPLATES ETC
+mkdir /var/www/html
+cd /var/www/html #DESTINACIONI KRYESOR ADMIN - TEMPLATES ETC
 cd /home/ubuntu && wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part01.rar
 wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part02.rar
 wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part03.rar
@@ -384,10 +384,10 @@ chmod 775 /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
 rm /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
 cp /var/www/html/downloads/iptv_panel_pro.zip /tmp
 chmod a+x /tmp/iptv_panel_pro.zip
-#cp /var/www/html/downloads/install_iptv_pro.php /root/ #FSHIHET AUTOMATIKISHT MBAS INSTALIMIT
-#cd /root
-#chmod a+x /root/install_iptv_pro.php
-#php install_iptv_pro.php  #KJO ESHTE LULKUQJA
+cp /var/www/html/downloads/install_iptv_pro.php /root/ #FSHIHET AUTOMATIKISHT MBAS INSTALIMIT
+cd /root
+chmod a+x /root/install_iptv_pro.php
+php install_iptv_pro.php  #KJO ESHTE LULKUQJA
 echo " "
 #REPLACE CONFIG, ALL ORIGINAL FILES ARE BACKUP WITH END backup_by_TRC4
 echo -e "${jeshile} ┌─────────────────────────────────────────┐ \e[0m"
@@ -421,19 +421,19 @@ echo -e "${jeshile} ┌───────────────────
 echo -e "${jeshile} │  Removing TEMP Files  │ \e[0m"
 echo -e "${jeshile} └───────────────────────┘ \e[0m"
 echo " "
-rm /home/ubuntu/xtreamcodes_1.0.60_novo.sh
-rm /home/ubuntu/go/
-rm /home/ubuntu/go.part01.rar
-rm /home/ubuntu/go.part02.rar
-rm /home/ubuntu/go.part03.rar
-rm /home/ubuntu/go.part04.rar
-rm /home/ubuntu/go.part05.rar
-rm /home/ubuntu/go.part06.rar
-rm /home/ubuntu/go.part07.rar
-rm /home/ubuntu/go.part08.rar
-rm /home/ubuntu/go.part09.rar
-rm /root/install_iptv_pro.php
-rm /root/xtreamcodes_1.0.60_novo.sh
+#rm /home/ubuntu/xtreamcodes_1.0.60_novo.sh
+#rm /home/ubuntu/go/
+#rm /home/ubuntu/go.part01.rar
+#rm /home/ubuntu/go.part02.rar
+#rm /home/ubuntu/go.part03.rar
+#rm /home/ubuntu/go.part04.rar
+#rm /home/ubuntu/go.part05.rar
+#rm /home/ubuntu/go.part06.rar
+#rm /home/ubuntu/go.part07.rar
+#rm /home/ubuntu/go.part08.rar
+#rm /home/ubuntu/go.part09.rar
+#rm /root/install_iptv_pro.php
+#rm /root/xtreamcodes_1.0.60_novo.sh
 echo " "
 echo -e "${jeshile} ┌──────────────────────────────────────────────────────────┐ \e[0m"
 echo -e "${jeshile} │  Xtream Fuckers 10.60 Nulled By Albanian Crackers (TRC4) │ \e[0m"
